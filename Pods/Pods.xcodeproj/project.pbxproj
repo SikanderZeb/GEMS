@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40458E3CBE175F0ACE80FE7448A1A3CB /* STCollapseTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F48C22923B4F7CE6D507BB60B354BD4 /* STCollapseTableView-dummy.m */; };
+		48FAA297C22633AE801067BFC595AA07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		61000E9BD65D56FBEE462394125E3BAB /* Pods-GEMS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C96A8C0E3CA8C89168E24B82E24FE2 /* Pods-GEMS-dummy.m */; };
+		711ACD06EB7E3ED602348872680EEE28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		844D7B5D00372DF44E689EA4CFC8EE99 /* STCollapseTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE5A1B28F9BE7C9C0D9C58565046C08 /* STCollapseTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		967ADDBEB7938884E8AAFCEDB8CDAD12 /* Pods-GEMS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E182A84DB83AC141374CA05FDCC961 /* Pods-GEMS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1F4A19DAC4881B6D71B8887F340C742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E89AA89D7759485499FBEEAFFF527254 /* STCollapseTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44A28EBE8FF75099D51169582F54F2DC /* STCollapseTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB108A25E5200A1F257F78919BBFDBD /* STCollapseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D1D0EAC0361A211AEB03C005E9F46 /* STCollapseTableView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A36FFFE62A70290F5C27F0720D93D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A9AB9F8E45ED4E077B358BC350254DC;
+			remoteInfo = STCollapseTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F8E32AC28FC8E7EB26696138A5F4352 /* STCollapseTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STCollapseTableView-prefix.pch"; sourceTree = "<group>"; };
+		1FE5A1B28F9BE7C9C0D9C58565046C08 /* STCollapseTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCollapseTableView.h; path = STCollapseTableView/STCollapseTableView.h; sourceTree = "<group>"; };
+		20C96A8C0E3CA8C89168E24B82E24FE2 /* Pods-GEMS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GEMS-dummy.m"; sourceTree = "<group>"; };
+		20E182A84DB83AC141374CA05FDCC961 /* Pods-GEMS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GEMS-umbrella.h"; sourceTree = "<group>"; };
+		23F8259FBDE0BCB6349A17B1FB246390 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359A4E653BC55BDAA650588D474CA4FD /* Pods-GEMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GEMS.release.xcconfig"; sourceTree = "<group>"; };
+		3C3B40CFFFF9C3C701D5052410003E51 /* Pods-GEMS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GEMS-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F48C22923B4F7CE6D507BB60B354BD4 /* STCollapseTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STCollapseTableView-dummy.m"; sourceTree = "<group>"; };
+		44A28EBE8FF75099D51169582F54F2DC /* STCollapseTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STCollapseTableView-umbrella.h"; sourceTree = "<group>"; };
+		52722FD44BCA9EC9200D9F52FB59B009 /* Pods-GEMS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GEMS-resources.sh"; sourceTree = "<group>"; };
+		5BD467534DEB9C7D59BDD37E42B345B7 /* Pods-GEMS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GEMS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		723EC0BC16B6A9661835B86FDBCCEDF3 /* STCollapseTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = STCollapseTableView.modulemap; sourceTree = "<group>"; };
+		75C2E8C500667DC74E34DDA806E21673 /* Pods-GEMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GEMS.debug.xcconfig"; sourceTree = "<group>"; };
+		89BF97BAAC40DEDD42B7FEDF048A8DE4 /* STCollapseTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = STCollapseTableView.framework; path = STCollapseTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B006410A4101D141FDB90B401AB2A30 /* Pods-GEMS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GEMS-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA8D1D0EAC0361A211AEB03C005E9F46 /* STCollapseTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCollapseTableView.m; path = STCollapseTableView/STCollapseTableView.m; sourceTree = "<group>"; };
+		AAD36FFD2BEF534D967630BDF6EB614C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BAD17097604C0EA614C410A97D0D414E /* Pods-GEMS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GEMS.modulemap"; sourceTree = "<group>"; };
+		C0BCDD40C17B0ED6436BA55B86CF3834 /* STCollapseTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STCollapseTableView.xcconfig; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E1F03AA8E870604D17937DD04635AC5D /* Pods_GEMS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GEMS.framework; path = "Pods-GEMS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE027104AE65B3A72736726822DD3F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F4A19DAC4881B6D71B8887F340C742 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90A862403CF61A3AF4D4BA90C542EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711ACD06EB7E3ED602348872680EEE28 /* Foundation.framework in Frameworks */,
+				48FAA297C22633AE801067BFC595AA07 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		102675E39BDB51751EFFD6A8260A3B4E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAD36FFD2BEF534D967630BDF6EB614C /* Info.plist */,
+				723EC0BC16B6A9661835B86FDBCCEDF3 /* STCollapseTableView.modulemap */,
+				C0BCDD40C17B0ED6436BA55B86CF3834 /* STCollapseTableView.xcconfig */,
+				3F48C22923B4F7CE6D507BB60B354BD4 /* STCollapseTableView-dummy.m */,
+				1F8E32AC28FC8E7EB26696138A5F4352 /* STCollapseTableView-prefix.pch */,
+				44A28EBE8FF75099D51169582F54F2DC /* STCollapseTableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/STCollapseTableView";
+			sourceTree = "<group>";
+		};
+		1A21BD96C18ED9EDE7C1E8659A2BC2A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7B897B2E32B2AD969112314300EAF0F /* STCollapseTableView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5576B53F094741208A8725FF12655319 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B46A76B5EF25A05332DABE681F4FA62A /* Pods-GEMS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6483BB79E8BDB2BEBA3090CD1F6404E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1F03AA8E870604D17937DD04635AC5D /* Pods_GEMS.framework */,
+				89BF97BAAC40DEDD42B7FEDF048A8DE4 /* STCollapseTableView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1A21BD96C18ED9EDE7C1E8659A2BC2A1 /* Pods */,
+				6483BB79E8BDB2BEBA3090CD1F6404E3 /* Products */,
+				5576B53F094741208A8725FF12655319 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B46A76B5EF25A05332DABE681F4FA62A /* Pods-GEMS */ = {
+			isa = PBXGroup;
+			children = (
+				23F8259FBDE0BCB6349A17B1FB246390 /* Info.plist */,
+				BAD17097604C0EA614C410A97D0D414E /* Pods-GEMS.modulemap */,
+				5BD467534DEB9C7D59BDD37E42B345B7 /* Pods-GEMS-acknowledgements.markdown */,
+				3C3B40CFFFF9C3C701D5052410003E51 /* Pods-GEMS-acknowledgements.plist */,
+				20C96A8C0E3CA8C89168E24B82E24FE2 /* Pods-GEMS-dummy.m */,
+				8B006410A4101D141FDB90B401AB2A30 /* Pods-GEMS-frameworks.sh */,
+				52722FD44BCA9EC9200D9F52FB59B009 /* Pods-GEMS-resources.sh */,
+				20E182A84DB83AC141374CA05FDCC961 /* Pods-GEMS-umbrella.h */,
+				75C2E8C500667DC74E34DDA806E21673 /* Pods-GEMS.debug.xcconfig */,
+				359A4E653BC55BDAA650588D474CA4FD /* Pods-GEMS.release.xcconfig */,
+			);
+			name = "Pods-GEMS";
+			path = "Target Support Files/Pods-GEMS";
+			sourceTree = "<group>";
+		};
+		B7B897B2E32B2AD969112314300EAF0F /* STCollapseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				1FE5A1B28F9BE7C9C0D9C58565046C08 /* STCollapseTableView.h */,
+				AA8D1D0EAC0361A211AEB03C005E9F46 /* STCollapseTableView.m */,
+				102675E39BDB51751EFFD6A8260A3B4E /* Support Files */,
+			);
+			name = STCollapseTableView;
+			path = STCollapseTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C65BD0B17E9513202667D673698E303 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967ADDBEB7938884E8AAFCEDB8CDAD12 /* Pods-GEMS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B58295853F9ABA440C3561C83A8AA9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89AA89D7759485499FBEEAFFF527254 /* STCollapseTableView-umbrella.h in Headers */,
+				844D7B5D00372DF44E689EA4CFC8EE99 /* STCollapseTableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A9AB9F8E45ED4E077B358BC350254DC /* STCollapseTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E700FAD202708257CCD58341BAD4E86 /* Build configuration list for PBXNativeTarget "STCollapseTableView" */;
+			buildPhases = (
+				2FEF033B0EA182912E689EDF666C83FF /* Sources */,
+				E90A862403CF61A3AF4D4BA90C542EE2 /* Frameworks */,
+				4B58295853F9ABA440C3561C83A8AA9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STCollapseTableView;
+			productName = STCollapseTableView;
+			productReference = 89BF97BAAC40DEDD42B7FEDF048A8DE4 /* STCollapseTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBE6512B8258D6BF9CD3F08F8D0985CB /* Pods-GEMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88590F375AD32FFCD51831735F071170 /* Build configuration list for PBXNativeTarget "Pods-GEMS" */;
+			buildPhases = (
+				8721FCC785EAA1F72B5EA535E316C2FF /* Sources */,
+				DE027104AE65B3A72736726822DD3F94 /* Frameworks */,
+				3C65BD0B17E9513202667D673698E303 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C599FB634A849DD3029DD0DB826CD60A /* PBXTargetDependency */,
+			);
+			name = "Pods-GEMS";
+			productName = "Pods-GEMS";
+			productReference = E1F03AA8E870604D17937DD04635AC5D /* Pods_GEMS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6483BB79E8BDB2BEBA3090CD1F6404E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBE6512B8258D6BF9CD3F08F8D0985CB /* Pods-GEMS */,
+				6A9AB9F8E45ED4E077B358BC350254DC /* STCollapseTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FEF033B0EA182912E689EDF666C83FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40458E3CBE175F0ACE80FE7448A1A3CB /* STCollapseTableView-dummy.m in Sources */,
+				EEB108A25E5200A1F257F78919BBFDBD /* STCollapseTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8721FCC785EAA1F72B5EA535E316C2FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61000E9BD65D56FBEE462394125E3BAB /* Pods-GEMS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C599FB634A849DD3029DD0DB826CD60A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STCollapseTableView;
+			target = 6A9AB9F8E45ED4E077B358BC350254DC /* STCollapseTableView */;
+			targetProxy = 1A36FFFE62A70290F5C27F0720D93D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		38592FF5FFA42305A9767AFE3A4B040A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359A4E653BC55BDAA650588D474CA4FD /* Pods-GEMS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GEMS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GEMS/Pods-GEMS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GEMS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A86587519595BC5030A2D35807A188CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BCDD40C17B0ED6436BA55B86CF3834 /* STCollapseTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/STCollapseTableView/STCollapseTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STCollapseTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/STCollapseTableView/STCollapseTableView.modulemap";
+				PRODUCT_NAME = STCollapseTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD4D69F210138B43173A2BCEF535B1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BCDD40C17B0ED6436BA55B86CF3834 /* STCollapseTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/STCollapseTableView/STCollapseTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STCollapseTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/STCollapseTableView/STCollapseTableView.modulemap";
+				PRODUCT_NAME = STCollapseTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D8E32CA197394D827758E192479E7BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C2E8C500667DC74E34DDA806E21673 /* Pods-GEMS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GEMS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GEMS/Pods-GEMS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GEMS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E700FAD202708257CCD58341BAD4E86 /* Build configuration list for PBXNativeTarget "STCollapseTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86587519595BC5030A2D35807A188CD /* Debug */,
+				BD4D69F210138B43173A2BCEF535B1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88590F375AD32FFCD51831735F071170 /* Build configuration list for PBXNativeTarget "Pods-GEMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E32CA197394D827758E192479E7BFC /* Debug */,
+				38592FF5FFA42305A9767AFE3A4B040A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193A59487461AC5B7FC7428F /* Pods_GEMS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1CFBC3F62B31D1E38016F9 /* Pods_GEMS.framework */; };
 		F919E3812083373700E0D854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E3802083373700E0D854 /* AppDelegate.swift */; };
-		F919E3832083373700E0D854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E3822083373700E0D854 /* ViewController.swift */; };
+		F919E3832083373700E0D854 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E3822083373700E0D854 /* HomeVC.swift */; };
 		F919E3862083373700E0D854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919E3842083373700E0D854 /* Main.storyboard */; };
 		F919E3882083373700E0D854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F919E3872083373700E0D854 /* Assets.xcassets */; };
 		F919E38B2083373700E0D854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919E3892083373700E0D854 /* LaunchScreen.storyboard */; };
+		F919E3932083435700E0D854 /* streets.plist in Resources */ = {isa = PBXBuildFile; fileRef = F919E3922083435600E0D854 /* streets.plist */; };
+		F919E3962083437D00E0D854 /* Street.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E3952083437D00E0D854 /* Street.swift */; };
+		F919E39B208348FC00E0D854 /* GeneralCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E39A208348FC00E0D854 /* GeneralCell.swift */; };
+		F919E39D20836AC500E0D854 /* StreetDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E39C20836AC500E0D854 /* StreetDetail.swift */; };
+		F919E39F2083757C00E0D854 /* EMSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E39E2083757C00E0D854 /* EMSVC.swift */; };
+		F919E3A12083775500E0D854 /* HospitalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E3A02083775500E0D854 /* HospitalsVC.swift */; };
+		F919E3A32083796100E0D854 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E3A22083796100E0D854 /* HeaderCell.swift */; };
+		F919E3A52083958A00E0D854 /* NamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E3A42083958A00E0D854 /* NamesVC.swift */; };
+		F919E3A72083990400E0D854 /* GPDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E3A62083990400E0D854 /* GPDVC.swift */; };
+		F919E3A920839AD600E0D854 /* MaintenanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E3A820839AD600E0D854 /* MaintenanceVC.swift */; };
+		F919E3AB20839FB000E0D854 /* PhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E3AA20839FB000E0D854 /* PhoneVC.swift */; };
+		F919E3AD2083A4CB00E0D854 /* UnitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919E3AC2083A4CB00E0D854 /* UnitResponse.swift */; };
+		F93128B1208500CE00977923 /* protocols.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F93128B0208500CE00977923 /* protocols.pdf */; };
+		F93128B3208501DD00977923 /* ImpDocsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93128B2208501DD00977923 /* ImpDocsVC.swift */; };
+		F93128B52085026600977923 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93128B42085026600977923 /* WebVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00ED4A0D37E64FDEDDA2683B /* Pods-GEMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEMS.release.xcconfig"; path = "Pods/Target Support Files/Pods-GEMS/Pods-GEMS.release.xcconfig"; sourceTree = "<group>"; };
+		6692E4E250B047FCCA621E9A /* Pods-GEMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEMS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GEMS/Pods-GEMS.debug.xcconfig"; sourceTree = "<group>"; };
+		AA1CFBC3F62B31D1E38016F9 /* Pods_GEMS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEMS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F919E37D2083373700E0D854 /* GEMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GEMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F919E3802083373700E0D854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F919E3822083373700E0D854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F919E3822083373700E0D854 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F919E3852083373700E0D854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F919E3872083373700E0D854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F919E38A2083373700E0D854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F919E38C2083373700E0D854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F919E3922083435600E0D854 /* streets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = streets.plist; sourceTree = "<group>"; };
+		F919E3952083437D00E0D854 /* Street.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Street.swift; sourceTree = "<group>"; };
+		F919E39A208348FC00E0D854 /* GeneralCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralCell.swift; sourceTree = "<group>"; };
+		F919E39C20836AC500E0D854 /* StreetDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StreetDetail.swift; path = GEMS/StreetDetail.swift; sourceTree = SOURCE_ROOT; };
+		F919E39E2083757C00E0D854 /* EMSVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMSVC.swift; sourceTree = "<group>"; };
+		F919E3A02083775500E0D854 /* HospitalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalsVC.swift; sourceTree = "<group>"; };
+		F919E3A22083796100E0D854 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		F919E3A42083958A00E0D854 /* NamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesVC.swift; sourceTree = "<group>"; };
+		F919E3A62083990400E0D854 /* GPDVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPDVC.swift; sourceTree = "<group>"; };
+		F919E3A820839AD600E0D854 /* MaintenanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceVC.swift; sourceTree = "<group>"; };
+		F919E3AA20839FB000E0D854 /* PhoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVC.swift; sourceTree = "<group>"; };
+		F919E3AC2083A4CB00E0D854 /* UnitResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitResponse.swift; sourceTree = "<group>"; };
+		F93128B0208500CE00977923 /* protocols.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = protocols.pdf; path = assets/protocols.pdf; sourceTree = SOURCE_ROOT; };
+		F93128B2208501DD00977923 /* ImpDocsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpDocsVC.swift; sourceTree = "<group>"; };
+		F93128B42085026600977923 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				193A59487461AC5B7FC7428F /* Pods_GEMS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10DC2BA509A100A6D4A5773 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA1CFBC3F62B31D1E38016F9 /* Pods_GEMS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4F3CB7037AE67D3152B0D79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6692E4E250B047FCCA621E9A /* Pods-GEMS.debug.xcconfig */,
+				00ED4A0D37E64FDEDDA2683B /* Pods-GEMS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F919E3742083373700E0D854 = {
 			isa = PBXGroup;
 			children = (
 				F919E37F2083373700E0D854 /* GEMS */,
 				F919E37E2083373700E0D854 /* Products */,
+				B4F3CB7037AE67D3152B0D79 /* Pods */,
+				A10DC2BA509A100A6D4A5773 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +109,44 @@
 			isa = PBXGroup;
 			children = (
 				F919E3802083373700E0D854 /* AppDelegate.swift */,
-				F919E3822083373700E0D854 /* ViewController.swift */,
+				F919E399208348BE00E0D854 /* Views */,
+				F919E3942083436B00E0D854 /* Models */,
+				F919E39C20836AC500E0D854 /* StreetDetail.swift */,
+				F919E3822083373700E0D854 /* HomeVC.swift */,
+				F919E3AA20839FB000E0D854 /* PhoneVC.swift */,
+				F919E3AC2083A4CB00E0D854 /* UnitResponse.swift */,
+				F919E3A62083990400E0D854 /* GPDVC.swift */,
+				F919E39E2083757C00E0D854 /* EMSVC.swift */,
+				F919E3A02083775500E0D854 /* HospitalsVC.swift */,
+				F919E3A42083958A00E0D854 /* NamesVC.swift */,
+				F919E3A820839AD600E0D854 /* MaintenanceVC.swift */,
+				F93128B2208501DD00977923 /* ImpDocsVC.swift */,
+				F93128B42085026600977923 /* WebVC.swift */,
 				F919E3842083373700E0D854 /* Main.storyboard */,
 				F919E3872083373700E0D854 /* Assets.xcassets */,
 				F919E3892083373700E0D854 /* LaunchScreen.storyboard */,
 				F919E38C2083373700E0D854 /* Info.plist */,
+				F919E3922083435600E0D854 /* streets.plist */,
+				F93128B0208500CE00977923 /* protocols.pdf */,
 			);
 			path = GEMS;
+			sourceTree = "<group>";
+		};
+		F919E3942083436B00E0D854 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F919E3952083437D00E0D854 /* Street.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F919E399208348BE00E0D854 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F919E39A208348FC00E0D854 /* GeneralCell.swift */,
+				F919E3A22083796100E0D854 /* HeaderCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F919E38F2083373700E0D854 /* Build configuration list for PBXNativeTarget "GEMS" */;
 			buildPhases = (
+				F18FAB957624E869D26A2707 /* [CP] Check Pods Manifest.lock */,
 				F919E3792083373700E0D854 /* Sources */,
 				F919E37A2083373700E0D854 /* Frameworks */,
 				F919E37B2083373700E0D854 /* Resources */,
+				1DBABB02984DDD888EF012DA /* [CP] Embed Pods Frameworks */,
+				45088087BA25D19623305C2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +184,7 @@
 				TargetAttributes = {
 					F919E37C2083373700E0D854 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -124,20 +212,89 @@
 			buildActionMask = 2147483647;
 			files = (
 				F919E38B2083373700E0D854 /* LaunchScreen.storyboard in Resources */,
+				F919E3932083435700E0D854 /* streets.plist in Resources */,
 				F919E3882083373700E0D854 /* Assets.xcassets in Resources */,
 				F919E3862083373700E0D854 /* Main.storyboard in Resources */,
+				F93128B1208500CE00977923 /* protocols.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DBABB02984DDD888EF012DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GEMS/Pods-GEMS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/STCollapseTableView/STCollapseTableView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/STCollapseTableView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GEMS/Pods-GEMS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45088087BA25D19623305C2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GEMS/Pods-GEMS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18FAB957624E869D26A2707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GEMS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F919E3792083373700E0D854 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F919E3832083373700E0D854 /* ViewController.swift in Sources */,
+				F919E39F2083757C00E0D854 /* EMSVC.swift in Sources */,
+				F919E3A920839AD600E0D854 /* MaintenanceVC.swift in Sources */,
+				F919E3962083437D00E0D854 /* Street.swift in Sources */,
+				F919E3AB20839FB000E0D854 /* PhoneVC.swift in Sources */,
+				F919E39D20836AC500E0D854 /* StreetDetail.swift in Sources */,
+				F919E3832083373700E0D854 /* HomeVC.swift in Sources */,
+				F93128B3208501DD00977923 /* ImpDocsVC.swift in Sources */,
+				F919E3A72083990400E0D854 /* GPDVC.swift in Sources */,
+				F919E3A32083796100E0D854 /* HeaderCell.swift in Sources */,
+				F919E3A52083958A00E0D854 /* NamesVC.swift in Sources */,
+				F919E39B208348FC00E0D854 /* GeneralCell.swift in Sources */,
+				F919E3AD2083A4CB00E0D854 /* UnitResponse.swift in Sources */,
+				F93128B52085026600977923 /* WebVC.swift in Sources */,
 				F919E3812083373700E0D854 /* AppDelegate.swift in Sources */,
+				F919E3A12083775500E0D854 /* HospitalsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +429,18 @@
 		};
 		F919E3902083373700E0D854 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6692E4E250B047FCCA621E9A /* Pods-GEMS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dennis Duncan (L9D8AX3QKA)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = L9D8AX3QKA;
 				INFOPLIST_FILE = GEMS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gems.GEMS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shopzee.quizapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "afd29858-0bfa-48a8-ae77-90876a2245c3";
+				PROVISIONING_PROFILE_SPECIFIER = "QuizApp Prod";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +448,18 @@
 		};
 		F919E3912083373700E0D854 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00ED4A0D37E64FDEDDA2683B /* Pods-GEMS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dennis Duncan (L9D8AX3QKA)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = L9D8AX3QKA;
 				INFOPLIST_FILE = GEMS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gems.GEMS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shopzee.quizapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "afd29858-0bfa-48a8-ae77-90876a2245c3";
+				PROVISIONING_PROFILE_SPECIFIER = "QuizApp Prod";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
